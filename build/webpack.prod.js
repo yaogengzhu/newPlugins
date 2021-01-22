@@ -7,7 +7,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = merge(commonWebpackConfig, {
     mode: 'production',
-    entry: path.resolve(config.rootPath, './src/plugin.js'),
+    entry: path.resolve(config.rootPath, './src/main.js'),
     output: {
         path: path.resolve(config.rootPath, './dist'),
         publicPath: './',
